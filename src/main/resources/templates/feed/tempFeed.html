@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Feed</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f8fa;
+            margin: 0;
+            padding: 0;
+        }
+        .feed {
+            max-width: 600px;
+            margin: 20px auto;
+            border: 1px solid #e1e8ed;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+        }
+        .header img {
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .header span {
+            font-weight: bold;
+            font-size: 16px;
+            margin-right: 5px;
+        }
+        .header .username {
+            color: #657786;
+        }
+        .tweet-content {
+            margin: 10px 0;
+            font-size: 15px;
+        }
+        .actions {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+        }
+        .actions img {
+            margin-right: 5px;
+        }
+        .actions div {
+            display: flex;
+            align-items: center;
+            color: #657786;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="feed">
+        <div class="header">
+            <img src="profile1.jpg" alt="User Profile" width="50" height="50">
+            <span>user1</span>
+            <span class="username">@user1</span>
+        </div>
+        <div class="tweet-content">
+            This is the first tweet content. #firstTweet
+        </div>
+        <div class="actions">
+            <div><img src="comment_icon.png" alt="Comment" width="20"> 10</div>
+            <div><img src="retweet_icon.png" alt="Retweet" width="20"> 20</div>
+            <div><img src="like_icon.png" alt="Like" width="20"> 30</div>
+        </div>
+        <form action="/loginPage" method="get">
+            <button type="submit">Go to Target Page</button>
+        </form>
+    </div>
+
+    <div class="feed">
+        <div class="header">
+            <img src="profile2.jpg" alt="User Profile" width="50" height="50">
+            <span>user2</span>
+            <span class="username">@user2</span>
+        </div>
+        <div class="tweet-content">
+            Here is another tweet! #anotherTweet
+        </div>
+        <div class="actions">
+            <div><img src="comment_icon.png" alt="Comment" width="20"> 15</div>
+            <div><img src="retweet_icon.png" alt="Retweet" width="20"> 25</div>
+            <div><img src="like_icon.png" alt="Like" width="20"> 35</div>
+        </div>
+        <form action="/loginPage" method="get">
+            <button type="submit">Go to Target Page</button>
+        </form>
+
+    </div>
+
+    <div class="feed">
+        <div class="header">
+            <img src="profile3.jpg" alt="User Profile" width="50" height="50">
+            <span>user3</span>
+            <span class="username">@user3</span>
+        </div>
+        <div class="tweet-content">
+            Loving the new Twitter design! #newDesign
+        </div>
+        <div class="actions">
+            <div><img src="comment_icon.png" alt="Comment" width="20"> 20</div>
+            <div><img src="retweet_icon.png" alt="Retweet" width="20"> 30</div>
+            <div><img src="like_icon.png" alt="Like" width="20"> 40</div>
+        </div>
+        <form action="/loginPage" method="get">
+            <button type="submit">Go to Target Page</button>
+        </form>
+
+    </div>
+
+</body>
+</html>
